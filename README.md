@@ -39,7 +39,7 @@ This package is very easy to set up. There are only couple of steps.
 
 ### Composer
 
-Pull this package in through Composer 
+Pull this package in through Composer
 ```
 composer require ultraware/roles
 ```
@@ -53,9 +53,9 @@ Add the package to your application service providers in `config/app.php` file.
 
 ```php
 'providers' => [
-    
+
     ...
-    
+
     /**
      * Third Party Service Providers...
      */
@@ -144,7 +144,7 @@ if ($user->isAdmin()) {
 And of course, there is a way to check for multiple roles:
 
 ```php
-if ($user->hasRole(['admin', 'moderator'])) { 
+if ($user->hasRole(['admin', 'moderator'])) {
     /*
     | Or alternatively:
     | $user->hasRole('admin, moderator'), $user->hasRole('admin|moderator'),
