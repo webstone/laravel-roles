@@ -3,10 +3,6 @@
 [![StyleCI](https://styleci.io/repos/74971525/shield?branch=master)](https://styleci.io/repos/74971525)
 [![Coverage Status](https://coveralls.io/repos/github/ultraware/roles/badge.svg?branch=master)](https://coveralls.io/github/ultraware/roles?branch=5.1)
 
-#Abandoned 
-The Roles and permissions for laraval 5 package is abandoned and will no longer be maintained by Ultraware. 
-Feel free to fork the project and submit it to packagist. We can share the url to your package on this page if you send us a message.
-
 # Roles And Permissions For Laravel 5
 
 Powerful package for handling roles and permissions in Laravel 5.
@@ -39,7 +35,7 @@ This package is very easy to set up. There are only couple of steps.
 
 ### Composer
 
-Pull this package in through Composer 
+Pull this package in through Composer
 ```
 composer require ultraware/roles
 ```
@@ -53,9 +49,9 @@ Add the package to your application service providers in `config/app.php` file.
 
 ```php
 'providers' => [
-    
+
     ...
-    
+
     /**
      * Third Party Service Providers...
      */
@@ -144,7 +140,7 @@ if ($user->isAdmin()) {
 And of course, there is a way to check for multiple roles:
 
 ```php
-if ($user->hasRole(['admin', 'moderator'])) { 
+if ($user->hasRole(['admin', 'moderator'])) {
     /*
     | Or alternatively:
     | $user->hasRole('admin, moderator'), $user->hasRole('admin|moderator'),
