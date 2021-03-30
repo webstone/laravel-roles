@@ -1,15 +1,6 @@
-[![Build Status](https://travis-ci.org/ultraware/roles.svg?branch=master)](https://travis-ci.org/ultraware/roles)
-[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/ultraware/roles/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/ultraware/roles/?branch=5.1)
-[![StyleCI](https://styleci.io/repos/74971525/shield?branch=master)](https://styleci.io/repos/74971525)
-[![Coverage Status](https://coveralls.io/repos/github/ultraware/roles/badge.svg?branch=master)](https://coveralls.io/github/ultraware/roles?branch=5.1)
+# Roles And Permissions For Laravel
 
-#Abandoned 
-The Roles and permissions for laraval 5 package is abandoned and will no longer be maintained by Ultraware. 
-Feel free to fork the project and submit it to packagist. We can share the url to your package on this page if you send us a message.
-
-# Roles And Permissions For Laravel 5
-
-Powerful package for handling roles and permissions in Laravel 5.
+Powerful package for handling roles and permissions in Laravel.
 
 - [Installation](#installation)
     - [Composer](#composer)
@@ -41,7 +32,7 @@ This package is very easy to set up. There are only couple of steps.
 
 Pull this package in through Composer
 ```
-composer require ultraware/roles
+composer require 7Lab/laravel-roles
 ```
 
 > If you are still using Laravel 5.0, you must pull in version `1.7.*`.

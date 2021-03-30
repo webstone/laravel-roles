@@ -1,7 +1,6 @@
 {
     "name": "7lab/laravel-roles",
-    "description": "Powerful package for handling roles and permissions in Laravel 5.",
-    "abandoned": true,
+    "description": "Powerful package for handling roles and permissions in Laravel.",
     "keywords": [
         "roles",
         "permissions",
@@ -18,8 +17,8 @@
     ],
     "require": {
         "php": ">=7.2",
-        "illuminate/support": "5.8.*",
-        "illuminate/database": "5.8.*"
+        "illuminate/support": "5.8.*|^6.0|^7.0|^8.0",
+        "illuminate/database": "5.8.*|^6.0|^7.0|^8.0"
     },
     "autoload": {
         "psr-4": {
